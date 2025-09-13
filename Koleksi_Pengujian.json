@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "0c3a2125-3f93-45da-9201-8b55056543c7",
+		"name": "Integrasi API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47980429",
+		"_collection_link": "https://ardiansyahfirman2010-5708786.postman.co/workspace/Firman-Ardiansyah's-Workspace~31420567-174d-4ec6-8b66-1ed5b172f731/collection/47980429-0c3a2125-3f93-45da-9201-8b55056543c7?action=share&source=collection_link&creator=47980429"
+	},
+	"item": [
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3300/status",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reviews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3300/reviews",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Review by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3300/reviews/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reviews",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"film_id\": \"86e544fd-79de-4e04-be62-5be67d8dd92e\",\r\n    \"user\": \"Maulidin\",\r\n    \"rating\": 9,\r\n    \"comment\": \"Ini adalah film terkocak\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3300/reviews",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reviews",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"film_id\": \"86e544fd-79de-4e04-be62-5be67d8dd92e\",\r\n    \"user\": \"Nuris\",\r\n    \"rating\": 10,\r\n    \"comment\": \"Ini adalah film yang paling lucu\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3300/reviews/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reviews",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:3300/reviews/3",
+					"host": [
+						"localhost"
+					],
+					"port": "3300",
+					"path": [
+						"reviews",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghibliapi.dev/films",
+					"protocol": "https",
+					"host": [
+						"ghibliapi",
+						"dev"
+					],
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Films by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ghibliapi.dev/films/578ae244-7750-4d9f-867b-f3cd3d6fecf4",
+					"protocol": "https",
+					"host": [
+						"ghibliapi",
+						"dev"
+					],
+					"path": [
+						"films",
+						"578ae244-7750-4d9f-867b-f3cd3d6fecf4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

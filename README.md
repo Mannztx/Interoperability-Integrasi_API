@@ -2,8 +2,8 @@
 
 ## Anggota Kelompok
 - Firman Ardiansyah (362458302101)
-- Virdan Andi Wardana (362458302139)
-- Moh. Nuris Gustian Arrafi (362458302140)
+- Virdan Andi Wardana (362458302039)
+- Moh. Nuris Gustian Arrafi (362458302040)
 
 ## Deskripsi Proyek
 API ini adalah layanan internal untuk mengelola ulasan film dari Studio Ghibli,
